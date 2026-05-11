@@ -38,3 +38,24 @@ export const staggerContainer: Variants = {
     },
   },
 };
+
+// Fade from left
+export const fadeLeft: Variants = {
+  initial: { opacity: 0, x: -30 },
+  animate: { opacity: 1, x: 0, transition: smoothTransition },
+  exit: { opacity: 0, x: -20, transition: { duration: 0.4 } },
+};
+
+// Fade from right
+export const fadeRight: Variants = {
+  initial: { opacity: 0, x: 30 },
+  animate: { opacity: 1, x: 0, transition: smoothTransition },
+  exit: { opacity: 0, x: 20, transition: { duration: 0.4 } },
+};
+
+// Scale up elegantly
+export const scaleUp: Variants = {
+  initial: { opacity: 0, scale: 0.95 },
+  animate: { opacity: 1, scale: 1, transition: smoothTransition },
+  exit: { opacity: 0, scale: 0.98, transition: { duration: 0.4 } },
+};

@@ -23,10 +23,10 @@ export function TrustSection() {
                   </div>
                   <h3 className="text-charcoal-900 mt-4">&quot;People trust people, not corporations.&quot;</h3>
                   <p className="text-body-md text-pretty">
-                    I grew up in Tirupati. Building Maa Renewable Energy was about giving our neighbors a choice—a transparent, reliable path to clean energy without the sales pressure. We take personal accountability for the systems that power your family&apos;s daily life.
+                    I grew up in Tirupati. Building Maa Renewable Energy was about giving our neighbors a choice—a transparent, reliable path to clean energy without the sales pressure. I take personal accountability for the systems that power your family&apos;s daily life.
                   </p>
                   <div>
-                    <p className="font-semibold text-charcoal-900">Venkata Sai</p>
+                    <p className="font-semibold text-charcoal-900">Jeevan Kumar</p>
                     <p className="text-body-sm">Founder, Maa Renewable Energy</p>
                   </div>
                 </Flex>

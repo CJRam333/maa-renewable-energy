@@ -10,8 +10,8 @@ import { Transition } from "framer-motion";
 // A slightly longer, smooth bezier curve for an "expensive" feel
 export const smoothTransition: Transition = {
   type: "tween",
-  ease: [0.33, 1, 0.68, 1],
-  duration: 1.2,
+  ease: [0.25, 1, 0.5, 1],
+  duration: 1.4,
 };
 
 // Subtle fade in

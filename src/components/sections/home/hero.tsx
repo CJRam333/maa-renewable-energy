@@ -42,7 +42,7 @@ export function HeroSection() {
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-[var(--shadow-float)] border border-[var(--color-border)] surface-base">
                <div className="absolute inset-0 bg-[var(--color-cream-200)] bg-gradient-evening flex items-center justify-center">
                  <span className="text-body-sm italic text-center px-4">
-                   [Cinematic imagery of modern Tirupati home bathed in warm evening sunlight with solar panels]
+                   [Cinematic AI imagery: A grounded, modern Andhra middle-class home bathed in warm Tirupati evening sunlight, featuring realistic solar panels on the roof]
                  </span>
                </div>
             </div>

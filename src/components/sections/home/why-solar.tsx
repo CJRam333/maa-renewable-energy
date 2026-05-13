@@ -29,7 +29,7 @@ export function WhySolarSection() {
            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-[var(--shadow-elevation)] surface-base">
                <div className="absolute inset-0 bg-[var(--color-cream-200)] bg-gradient-sunlight flex items-center justify-center p-8 text-center">
                  <span className="text-body-sm italic text-[var(--color-charcoal-700)]">
-                   [Atmospheric image of the local Andhra landscape bathed in warm sunlight, emphasizing realistic optimism]
+                   [Atmospheric AI imagery: Warm Tirupati evening light hitting modern residential rooftops, grounded middle-class aspiration]
                  </span>
                </div>
            </div>

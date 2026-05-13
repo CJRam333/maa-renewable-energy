@@ -23,7 +23,7 @@ export function TrustSection() {
                   </div>
                   <h3 className="text-charcoal-900 mt-4">&quot;People trust people, not corporations.&quot;</h3>
                   <p className="text-body-md text-pretty">
-                    At Maa Renewable Energy, we believe transitioning to solar is a family decision. We aren&apos;t an anonymous enterprise. We are your neighbors in Tirupati, taking personal accountability for the energy systems that power your daily life.
+                    I grew up in Tirupati. Building Maa Renewable Energy was about giving our neighbors a choice—a transparent, reliable path to clean energy without the sales pressure. We take personal accountability for the systems that power your family&apos;s daily life.
                   </p>
                   <div>
                     <p className="font-semibold text-charcoal-900">Venkata Sai</p>

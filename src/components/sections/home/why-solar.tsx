@@ -13,8 +13,8 @@ export function WhySolarSection() {
       desc: "Tirupati enjoys nearly 300 days of clear sunshine, making it one of the most efficient locations for solar harvesting."
     },
     {
-      title: "Defeat Power Cuts",
-      desc: "Ensure your family never experiences disruption during grid failures with reliable battery backups."
+      title: "Uninterrupted Family Time",
+      desc: "Ensure your family never experiences disruption during grid failures. Your evenings remain bright and comfortable."
     },
     {
       title: "Rising Grid Costs",
@@ -27,9 +27,9 @@ export function WhySolarSection() {
       <Container>
         <Grid columns={2} gap="xl" className="items-center">
            <div className="relative aspect-square rounded-3xl overflow-hidden shadow-[var(--shadow-elevation)] surface-base">
-               <div className="absolute inset-0 bg-[var(--color-cream-200)] flex items-center justify-center p-8 text-center">
-                 <span className="text-body-sm italic">
-                   [Atmospheric image of Tirupati skyline or local landscape bathed in sunlight]
+               <div className="absolute inset-0 bg-[var(--color-cream-200)] bg-gradient-sunlight flex items-center justify-center p-8 text-center">
+                 <span className="text-body-sm italic text-[var(--color-charcoal-700)]">
+                   [Atmospheric image of the local Andhra landscape bathed in warm sunlight, emphasizing realistic optimism]
                  </span>
                </div>
            </div>

@@ -135,6 +135,9 @@
   .bg-gradient-cinematic {
     @apply bg-gradient-to-t from-charcoal-900 via-charcoal-900/80 to-transparent;
   }
+  .bg-gradient-evening {
+    @apply bg-gradient-to-tr from-amber-600/10 via-orange-500/5 to-charcoal-900/5;
+  }
 
   /* Surface Layers */
   .surface-base {

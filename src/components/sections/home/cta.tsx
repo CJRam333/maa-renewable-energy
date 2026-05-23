@@ -24,10 +24,10 @@ export function CTASection() {
 
               <Flex gap="md" wrap="wrap" justify="center" className="mt-4">
                 <Button size="lg" withArrow>
-                  Schedule a Free Home Visit
+                  Book a Free Consultation
                 </Button>
                 <Button variant="outline" size="lg">
-                  Ask us a Question
+                  Chat with our local team
                 </Button>
               </Flex>
 

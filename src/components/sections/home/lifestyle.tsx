@@ -23,7 +23,7 @@ export function LifestyleSection() {
             <div className="col-span-12 md:col-span-8 row-span-2 relative rounded-3xl overflow-hidden surface-elevated group">
                <div className="absolute inset-0 bg-[var(--color-cream-200)] bg-gradient-evening transition-transform duration-700 group-hover:scale-105 flex items-center justify-center p-8 text-center">
                  <span className="text-body-sm italic text-[var(--color-charcoal-700)]">
-                   [Warm, candid image of a family relaxing indoors under AC, powered silently by solar]
+                   [Warm, candid AI image of a middle-class Andhra family relaxing indoors under AC, realistic and calm]
                  </span>
                </div>
             </div>
@@ -32,7 +32,7 @@ export function LifestyleSection() {
             <div className="col-span-12 sm:col-span-6 md:col-span-4 row-span-1 relative rounded-3xl overflow-hidden surface-base group">
                <div className="absolute inset-0 bg-[var(--color-leaf-100)] transition-transform duration-700 group-hover:scale-105 flex items-center justify-center p-6 text-center">
                  <span className="text-body-sm italic text-[var(--color-charcoal-700)]">
-                   [Aesthetic shot of panels blending with an Andhra home&apos;s architecture]
+                   [Aesthetic AI shot of solar panels integrating naturally into a realistic Tirupati residential roof]
                  </span>
                </div>
             </div>

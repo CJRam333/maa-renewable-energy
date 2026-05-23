@@ -5,6 +5,7 @@ import { Flex } from "@/components/layout/flex";
 import { SectionHeader } from "@/components/ui/section-header";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
 import { staggerContainer, fadeRight } from "@/lib/animations";
+import Image from "next/image";
 
 export function JourneySection() {
   const steps = [
@@ -41,12 +42,15 @@ export function JourneySection() {
                description="We have removed the friction. No confusing jargon, no hidden fees, just a smooth, stress-free transition handled by professionals."
              />
 
-             <div className="mt-12 relative aspect-[3/4] w-3/4 rounded-2xl overflow-hidden shadow-[var(--shadow-subtle)] surface-base hidden md:block">
-               <div className="absolute inset-0 bg-[var(--color-cream-200)] flex items-center justify-center p-6 text-center">
-                 <span className="text-body-sm italic">
-                   [Warm photo of team explaining process to a family]
-                 </span>
-               </div>
+             <div className="mt-12 relative aspect-[3/4] w-3/4 rounded-2xl overflow-hidden shadow-[var(--shadow-subtle)] surface-base hidden md:block group">
+               <Image
+                 src="/images/solar-installation-team.jpg"
+                 alt="Maa Renewable Energy team explaining the solar installation process to a local family"
+                 fill
+                 className="object-cover transition-transform duration-700 group-hover:scale-105"
+                 sizes="(max-width: 768px) 0vw, 33vw"
+               />
+               <div className="absolute inset-0 bg-[var(--color-leaf-400)] mix-blend-overlay opacity-10 pointer-events-none" />
              </div>
           </div>
 

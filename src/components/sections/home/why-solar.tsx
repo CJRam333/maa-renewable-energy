@@ -5,6 +5,7 @@ import { Flex } from "@/components/layout/flex";
 import { SectionHeader } from "@/components/ui/section-header";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
 import { staggerContainer, slideUp } from "@/lib/animations";
+import Image from "next/image";
 
 export function WhySolarSection() {
   const advantages = [
@@ -26,12 +27,15 @@ export function WhySolarSection() {
     <Section spacing="lg">
       <Container>
         <Grid columns={2} gap="xl" className="items-center">
-           <div className="relative aspect-square rounded-3xl overflow-hidden shadow-[var(--shadow-elevation)] surface-base">
-               <div className="absolute inset-0 bg-[var(--color-cream-200)] bg-gradient-sunlight flex items-center justify-center p-8 text-center">
-                 <span className="text-body-sm italic text-[var(--color-charcoal-700)]">
-                   [Atmospheric AI imagery: Warm Tirupati evening light hitting modern residential rooftops, grounded middle-class aspiration]
-                 </span>
-               </div>
+           <div className="relative aspect-square rounded-3xl overflow-hidden shadow-[var(--shadow-elevation)] surface-base group">
+              <Image
+                src="/images/tirupati-landscape-solar.jpg"
+                alt="Warm Tirupati evening light hitting modern residential rooftops equipped with solar panels"
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-gradient-sunlight mix-blend-overlay opacity-40 pointer-events-none" />
            </div>
 
            <Flex direction="col" gap="xl">

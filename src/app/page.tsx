@@ -6,10 +6,11 @@ import { JourneySection } from "@/components/sections/home/journey";
 import { FinancingSection } from "@/components/sections/home/financing";
 import { LifestyleSection } from "@/components/sections/home/lifestyle";
 import { CTASection } from "@/components/sections/home/cta";
+import { ContactSection } from "@/components/sections/home/contact";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen overflow-hidden">
+    <main className="flex flex-col min-h-screen overflow-hidden pb-16 md:pb-0">
       <HeroSection />
       <TrustSection />
       <WhySolarSection />
@@ -18,6 +19,7 @@ export default function Home() {
       <FinancingSection />
       <LifestyleSection />
       <CTASection />
+      <ContactSection />
     </main>
   );
 }

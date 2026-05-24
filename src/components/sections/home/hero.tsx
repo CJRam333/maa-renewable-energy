@@ -5,6 +5,7 @@ import { Flex } from "@/components/layout/flex";
 import { Button } from "@/components/ui/button";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
 import { fadeRight, fadeLeft } from "@/lib/animations";
+import Image from "next/image";
 
 export function HeroSection() {
   return (
@@ -38,13 +39,16 @@ export function HeroSection() {
           </MotionWrapper>
 
           <MotionWrapper variants={fadeLeft}>
-            {/* Placeholder for AI-generated residential image */}
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-[var(--shadow-float)] border border-[var(--color-border)] surface-base">
-               <div className="absolute inset-0 bg-[var(--color-cream-200)] bg-gradient-evening flex items-center justify-center">
-                 <span className="text-body-sm italic text-center px-4">
-                   [Cinematic AI imagery: A grounded, modern Andhra middle-class home bathed in warm Tirupati evening sunlight, featuring realistic solar panels on the roof]
-                 </span>
-               </div>
+              <Image
+                src="/images/hero-solar-home.jpg"
+                alt="A modern Andhra home in Tirupati bathed in warm evening sunlight, powered by rooftop solar panels"
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-gradient-evening mix-blend-overlay opacity-60 pointer-events-none" />
             </div>
           </MotionWrapper>
         </Grid>

@@ -41,7 +41,7 @@ export function HeroSection() {
           <MotionWrapper variants={fadeLeft}>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-[var(--shadow-float)] border border-[var(--color-border)] surface-base">
               <Image
-                src="/images/hero-solar-home.jpg"
+                src="/images/hero/hero-tirupati-home.jpg"
                 alt="A modern Andhra home in Tirupati bathed in warm evening sunlight, powered by rooftop solar panels"
                 fill
                 priority

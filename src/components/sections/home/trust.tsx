@@ -4,6 +4,7 @@ import { Grid } from "@/components/layout/grid";
 import { Flex } from "@/components/layout/flex";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
 import { scaleUp } from "@/lib/animations";
+import Image from "next/image";
 
 export function TrustSection() {
   return (
@@ -16,10 +17,13 @@ export function TrustSection() {
 
              <Grid columns={2} gap="lg" className="items-center">
                 <Flex direction="col" gap="md">
-                  <div className="w-24 h-24 rounded-full bg-[var(--color-cream-200)] border-2 border-[var(--color-amber-400)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm">
-                     <span className="text-xs text-[var(--color-muted)] text-center px-2">
-                       [Founder Face]
-                     </span>
+                  <div className="w-24 h-24 rounded-full bg-[var(--color-cream-200)] border-2 border-[var(--color-amber-400)] flex items-center justify-center overflow-hidden shrink-0 shadow-sm relative">
+                    <Image
+                      src="/images/founder/founder-jeevan-kumar.jpg"
+                      alt="Jeevan Kumar, Founder of Maa Renewable Energy"
+                      fill
+                      className="object-cover"
+                    />
                   </div>
                   <h3 className="text-charcoal-900 mt-4">&quot;People trust people, not corporations.&quot;</h3>
                   <p className="text-body-md text-pretty">

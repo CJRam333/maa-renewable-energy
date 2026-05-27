@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description: "Transition to clean, reliable solar energy with a team rooted in your community. Maa Renewable Energy offers stress-free, transparent, and financially smart solar installations in Tirupati, Andhra Pradesh.",
     images: [
       {
-        url: "/images/og-default.jpg",
+        url: "/images/og/og-preview.jpg",
         width: 1200,
         height: 630,
         alt: "Maa Renewable Energy - Tirupati Solar Solutions",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Maa Renewable Energy | Trusted Solar Solutions in Tirupati",
     description: "Transition to clean, reliable solar energy with a team rooted in your community.",
-    images: ["/images/og-default.jpg"],
+    images: ["/images/og/og-preview.jpg"],
   },
   alternates: {
     canonical: "https://maarenewable.in",
@@ -59,7 +59,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "Maa Renewable Energy",
-              "image": "https://maarenewable.in/images/og-default.jpg",
+              "image": "https://maarenewable.in/images/og/og-preview.jpg",
               "description": "Trusted local clean-energy solutions in Tirupati. We provide residential solar panel installations, transparent pricing, and subsidy assistance.",
               "address": {
                 "@type": "PostalAddress",

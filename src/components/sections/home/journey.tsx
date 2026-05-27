@@ -44,8 +44,8 @@ export function JourneySection() {
 
              <div className="mt-12 relative aspect-[3/4] w-3/4 rounded-2xl overflow-hidden shadow-[var(--shadow-subtle)] surface-base hidden md:block group">
                <Image
-                 src="/images/solar-installation-team.jpg"
-                 alt="Maa Renewable Energy team explaining the solar installation process to a local family"
+                 src="/images/installation/installation-rooftop-team.jpg"
+                 alt="Maa Renewable Energy team installing solar panels on a local rooftop"
                  fill
                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                  sizes="(max-width: 768px) 0vw, 33vw"

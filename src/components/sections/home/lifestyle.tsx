@@ -23,8 +23,8 @@ export function LifestyleSection() {
             {/* Main large image */}
             <div className="col-span-12 md:col-span-8 row-span-2 relative rounded-3xl overflow-hidden surface-elevated group">
                <Image
-                 src="/images/family-living-room-ac.jpg"
-                 alt="A middle-class Andhra family relaxing indoors under AC, powered silently by solar"
+                 src="/images/lifestyle/lifestyle-family-evening.jpg"
+                 alt="A middle-class Andhra family relaxing outdoors in the evening, powered silently by solar"
                  fill
                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                  sizes="(max-width: 768px) 100vw, 66vw"

@@ -6,6 +6,7 @@ import { SectionHeader } from "@/components/ui/section-header";
 import { Button } from "@/components/ui/button";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
 import { slideUp } from "@/lib/animations";
+import { siteConfig } from "@/config/site";
 
 export function ContactSection() {
   return (
@@ -23,8 +24,8 @@ export function ContactSection() {
               <div className="bg-[var(--color-background)] p-6 rounded-2xl border border-[var(--color-border)] shadow-sm">
                 <h4 className="text-lg font-semibold mb-2 text-[var(--color-charcoal-900)]">Office Address</h4>
                 <p className="text-body-md">
-                  Maa Renewable Energy<br />
-                  Tirupati, Andhra Pradesh, India<br />
+                  {siteConfig.name}<br />
+                  {siteConfig.location}<br />
                   (Visits by appointment)
                 </p>
               </div>
@@ -32,8 +33,8 @@ export function ContactSection() {
               <div className="bg-[var(--color-background)] p-6 rounded-2xl border border-[var(--color-border)] shadow-sm">
                 <h4 className="text-lg font-semibold mb-2 text-[var(--color-charcoal-900)]">Direct Contact</h4>
                 <p className="text-body-md">
-                  Phone: +91 00000 00000<br />
-                  Email: hello@maarenewable.in
+                  Phone: {siteConfig.phoneFormatted}<br />
+                  Email: {siteConfig.email}
                 </p>
               </div>
             </Flex>

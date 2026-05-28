@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import { StickyMobileCTA } from "@/components/ui/sticky-mobile-cta";
+import { Footer } from "@/components/layout/footer";
 import "./globals.css";
 
 // Configure Plus Jakarta Sans for a modern, approachable, and readable feel
@@ -67,7 +68,7 @@ export default function RootLayout({
                 "addressRegion": "Andhra Pradesh",
                 "addressCountry": "IN"
               },
-              "telephone": "+910000000000",
+              "telephone": "+917995597962",
               "url": "https://maarenewable.in",
               "founder": {
                 "@type": "Person",
@@ -77,8 +78,11 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${jakarta.variable} font-sans antialiased`}>
-        {children}
+      <body className={`${jakarta.variable} font-sans antialiased flex flex-col min-h-screen`}>
+        <main className="flex-grow">
+          {children}
+        </main>
+        <Footer />
         <StickyMobileCTA />
       </body>
     </html>

@@ -6,20 +6,24 @@ import { SectionHeader } from "@/components/ui/section-header";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
 import { staggerContainer, slideUp } from "@/lib/animations";
 import Image from "next/image";
+import { Sun, ShieldCheck, TrendingDown } from "lucide-react";
 
 export function WhySolarSection() {
   const advantages = [
     {
       title: "Abundant Sunlight",
-      desc: "Tirupati enjoys nearly 300 days of clear sunshine, making it one of the most efficient locations for solar harvesting."
+      desc: "Tirupati enjoys nearly 300 days of clear sunshine, making it one of the most efficient locations for solar harvesting.",
+      icon: <Sun className="w-6 h-6" />
     },
     {
       title: "Uninterrupted Family Time",
-      desc: "Ensure your family never experiences disruption during grid failures. Your evenings remain bright and comfortable."
+      desc: "Ensure your family never experiences disruption during grid failures. Your evenings remain bright and comfortable.",
+      icon: <ShieldCheck className="w-6 h-6" />
     },
     {
       title: "Rising Grid Costs",
-      desc: "Lock in your energy rates now and protect your household from increasing state electricity tariffs."
+      desc: "Lock in your energy rates now and protect your household from increasing state electricity tariffs.",
+      icon: <TrendingDown className="w-6 h-6" />
     }
   ];
 
@@ -50,8 +54,8 @@ export function WhySolarSection() {
                  {advantages.map((adv, idx) => (
                    <MotionWrapper key={idx} variants={slideUp}>
                      <Flex gap="md" align="start">
-                        <div className="w-12 h-12 rounded-xl bg-[var(--color-amber-400)]/20 flex items-center justify-center shrink-0 border border-[var(--color-amber-400)]/30">
-                          <span className="font-semibold text-[var(--color-amber-600)]">{idx + 1}</span>
+                        <div className="w-12 h-12 rounded-xl bg-[var(--color-amber-400)]/20 flex items-center justify-center shrink-0 border border-[var(--color-amber-400)]/30 text-[var(--color-amber-600)]">
+                          {adv.icon}
                         </div>
                         <div>
                           <h4 className="text-lg font-semibold mb-1">{adv.title}</h4>

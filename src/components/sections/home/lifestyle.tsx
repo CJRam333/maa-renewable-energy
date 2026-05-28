@@ -35,7 +35,7 @@ export function LifestyleSection() {
             {/* Secondary images */}
             <div className="col-span-12 sm:col-span-6 md:col-span-4 row-span-1 relative rounded-3xl overflow-hidden surface-base group">
                <Image
-                 src="/images/andhra-home-exterior-panels.jpg"
+                 src="/images/culture/kuchipudi-solar-rooftop.jpg"
                  alt="Aesthetic shot of solar panels integrating naturally into a realistic Tirupati residential roof"
                  fill
                  className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -45,7 +45,7 @@ export function LifestyleSection() {
 
             <div className="col-span-12 sm:col-span-6 md:col-span-4 row-span-1 relative rounded-3xl overflow-hidden surface-base group">
                <Image
-                 src="/images/children-studying-bright-light.jpg"
+                 src="/images/study/children-studying-solar-light.jpg"
                  alt="Children studying in bright, uninterrupted light during evening hours thanks to solar battery backup"
                  fill
                  className="object-cover transition-transform duration-700 group-hover:scale-105"

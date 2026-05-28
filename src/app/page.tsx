@@ -10,7 +10,7 @@ import { ContactSection } from "@/components/sections/home/contact";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen overflow-hidden pb-16 md:pb-0">
+    <div className="flex flex-col min-h-screen overflow-hidden pb-16 md:pb-0">
       <HeroSection />
       <TrustSection />
       <WhySolarSection />
@@ -20,6 +20,6 @@ export default function Home() {
       <LifestyleSection />
       <CTASection />
       <ContactSection />
-    </main>
+    </div>
   );
 }
